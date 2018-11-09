@@ -14,8 +14,7 @@ import log from './utils/log.js';
 import toTitleCase from './utils/to-title-case.js';
 import mergeOptions from './utils/merge-options.js';
 
-/**
- * Base class for all UI Components.
+/** * Base class for all UI Components.
  * Components are UI objects which represent both a javascript object and an element
  * in the DOM. They can be children of other components, and can have
  * children themselves.
